@@ -83,7 +83,7 @@ export default function MemberPage() {
                     }>
                       {book.status}
                     </span>
-                    <button onClick={deleteBookAction(book.id)}>(x)</button>
+                    <button onClick={() => deleteBookAction(book.id)}>(x)</button>
                   </td>
                 </tr>
               ))}
